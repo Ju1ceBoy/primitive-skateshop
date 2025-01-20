@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>SkateShop Primitive</title>
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600;700&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/9dbda02981.js" crossorigin="anonymous"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CLDP96NBLD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CLDP96NBLD');
+</script>
+</head>
+	<meta charset="UTF-8" />
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="lang-links" id="langLinks">
+            <ul>
+                <li><a href="index.html">RU</a></li>
+            </ul>
+			</div>
+      <div class="lang-links-en" id="langLinksEN">
+            <ul>
+                <li><a href="index-en.html">EN</a></li>
+            </ul>
+			</div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">ГЛАВНАЯ</a></li>
+                    <li><a href="about.html">О НАС</a></li>
+                    <li><a href="base.html">СКЕЙТШОП</a></li>
+                    <li><a href="blog.html">БЛОГ</a></li>
+                    <li><a href="contact.html">КОНТАКТЫ</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>О Нас</h1>
+</section>
+    
+<!---------- About Content --------->
+    
+<section class="about-content">
+    <div class="row">
+        <div class="about-col">
+            <h1>Мы являемся самым большим в мире Скейтшопом</h1>
+            <p>Наш скейтшоп был основан в 2018 году и до сих пор держит самый высокий рейтинг среди всех скейтшопов. В 2017 году началось проектирование скейтпарка внутри ангара, но спустя некторое время мы подумали также заняться магазином и сделали отдельную комфортную зону отдыха для наших гостей. Многие именитые про-райдеры оставляют только положительные отзывы и возвращаются к нам не раз. Мы имеем несколько точек по миру. Ждем именно тебя в нашем Скейтшопе. С любовью Primitive.</p>
+            <a href="contact.html" class="hero-btn red-btn">ПОСЕТИ НАС СЕЙЧАС</a>
+        </div>
+        <div class="about-col">
+            <img src="images/background3.jpg">
+        </div>
+    </div>
+</section>
+
+
+<!---------- Footer ------------->
+
+<section class="footer">
+    <h4>О Нас</h4>
+    <p>Основан в 2018 году, делаем все для того чтобы вам было комфортно.<br> Спасибо что остаетесь с нами</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/primitiveskate/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/primitive_la"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/primitiveskate/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/primitive-apparel"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <p>Работаем для вас с <i class="fa-solid fa-heart"></i> ваш Primitive.</p>
+</section>
+    
+<!------ JavaScript for Toggle Menu -------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+</script>    
+</body>
+</html>
